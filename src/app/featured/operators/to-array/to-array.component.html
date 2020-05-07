@@ -1,0 +1,17 @@
+<div class="container">
+  <div my-3>
+    <h2>To Array</h2>
+  </div>
+
+  <p><strong>Interval:</strong></p>
+  <ul *ngFor="let data of source1">{{data}}</ul>
+
+  <p><strong>Of:</strong></p>
+  <ul *ngFor="let data of source2">{{data}}</ul>
+
+  <p><strong>From:</strong></p>
+  <ul *ngFor="let data of source3">{{data.name}}--{{data.skills}}</ul>
+
+  <p><strong>Timer:</strong></p>
+  <ul *ngFor="let data of source4">{{data}}</ul>
+</div>
